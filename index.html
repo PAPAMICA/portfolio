@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white" data-scroll-container>
+    <div class="timeline-nav">
+        <div class="timeline-track">
+            <div class="timeline-progress"></div>
+            <div class="year-markers">
+                <!-- Les années seront injectées ici -->
+            </div>
+            <div class="project-markers">
+                <!-- Les marqueurs de projet seront injectés ici -->
+            </div>
+        </div>
+    </div>
+    <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold">Mickael ASSELINE</div>
+                <a href="#intro" class="nav-link">Back to top</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="smooth-wrapper">
+        <section id="intro" class="parallax-section" data-scroll-section>
+            <div class="parallax-bg" data-scroll data-scroll-speed="-4">
+                <div class="overlay"></div>
+            </div>
+            <div class="content-wrapper" data-scroll data-scroll-speed="2">
+                <h1 class="text-8xl font-bold mb-8 gradient-text"></h1>
+                <p class="text-2xl text-gray-300 mb-12"></p>
+                <div class="social-links mb-16">
+                    <!-- Les liens sociaux seront injectés ici -->
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to discover</span>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <div id="projects-container">
+            <!-- Projects will be injected here -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html> 

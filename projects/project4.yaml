@@ -1,0 +1,23 @@
+id: "reptigo"
+title: "Reptigo"
+description: "A new logo and website for the Reptigo association"
+images:
+  - url: "https://reptigo.fr/wp-content/uploads/2024/11/Square-white-e1731162278219.png"
+    thumb: "https://reptigo.fr/wp-content/uploads/2024/11/Square-white-e1731162278219.png"
+  - url: "https://send.papamica.com/f.php?h=2EepsM4B&d=1"
+    thumb: "https://send.papamica.com/f.php?h=2EepsM4B&d=1"
+date: "2024-11"
+duration: "2 weeks"
+categories:
+  - name: "Web"
+    color: "bg-purple-500"
+  - name: "Graphic Design"
+    color: "bg-yellow-500"
+technologies:
+  - name: "WordPress"
+    icon: "https://img.papamica.com/stickers/wordpress.png"
+  - name: "Illustrator"
+    icon: "https://img.papamica.com/stickers/illustrator.png"
+link: "https://reptigo.fr/"
+bgImage: "https://send.papamica.com/f.php?h=2EepsM4B&d=1"
+color: "#26AE87" 
